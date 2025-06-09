@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyek - Zaki</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aos/aos.css" />
+</head>
+<body>
+  <div id="preloader"></div>
+  <header class="navbar">
+    <div class="logo">Zaki</div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="pendidikan.html">Pendidikan</a></li>
+        <li><a href="proyek.html" class="active">Proyek</a></li>
+        <li><a href="sertifikat.html">Sertifikat</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌓</button>
+  </header>
+
+  <main>
+    <section class="card" data-aos="fade-up">
+      <h2>Proyek Saya</h2>
+      <div class="project-list">
+        <div class="project-item" data-aos="fade-up" data-aos-delay="100">
+          <h3>Konfigurasi Mikrotik Dasar</h3>
+          <p>Konfigurasi IP Address, DHCP, NAT, dan firewall menggunakan Winbox dan Terminal.</p>
+        </div>
+        <div class="project-item" data-aos="fade-up" data-aos-delay="200">
+          <h3>Website Profil Sekolah</h3>
+          <p>Website sederhana menggunakan HTML dan CSS untuk menampilkan profil sekolah dengan responsif design.</p>
+        </div>
+        <div class="project-item" data-aos="fade-up" data-aos-delay="300">
+          <h3>Topologi Jaringan LAN</h3>
+          <p>Membuat simulasi jaringan LAN dengan Cisco Packet Tracer dan dokumentasi topologi.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zaki Habibi Rohman</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/zakihbbrhn?igsh=MTl6bjF5em1xOXk4MQ==" target="_blank">Instagram</a> |
+      <a href="https://youtube.com/@zakihabibirohman?feature=shared" target="_blank">YouTube</a>
+    </div>
+  </footer>
+
+  <script src="aos/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
